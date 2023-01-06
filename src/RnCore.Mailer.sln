@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RnCore.Mailer", "RnCore.Mailer\RnCore.Mailer.csproj", "{38FD2423-7A03-4943-9FF6-636EDA66175A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RnCore.Mailer", "RnCore.Mailer\RnCore.Mailer.csproj", "{38FD2423-7A03-4943-9FF6-636EDA66175A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9D24FC51-964F-4637-8B18-51AC1DF9B97F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9A5351F6-4231-4156-A5ED-AE140D6FD355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RnCore.MailerTests", "..\tests\RnCore.MailerTests\RnCore.MailerTests.csproj", "{3654D83A-8084-49BA-B2E3-380AFE1823C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{38FD2423-7A03-4943-9FF6-636EDA66175A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FD2423-7A03-4943-9FF6-636EDA66175A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FD2423-7A03-4943-9FF6-636EDA66175A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3654D83A-8084-49BA-B2E3-380AFE1823C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3654D83A-8084-49BA-B2E3-380AFE1823C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3654D83A-8084-49BA-B2E3-380AFE1823C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3654D83A-8084-49BA-B2E3-380AFE1823C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38FD2423-7A03-4943-9FF6-636EDA66175A} = {9D24FC51-964F-4637-8B18-51AC1DF9B97F}
+		{3654D83A-8084-49BA-B2E3-380AFE1823C8} = {9A5351F6-4231-4156-A5ED-AE140D6FD355}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11C4D976-DEB7-4ACF-BB54-4948083D57F9}
